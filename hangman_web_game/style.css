@@ -1,56 +1,24 @@
 body {
-    background-color: white;
-    color: black;
     font-family: Arial, sans-serif;
+    background-color: white;        /* white background */
+    color: black;                   /* black text */
     text-align: center;
-    margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
-/* Medium size image */
-img {
-    width: 320px;  /* Not too big, not too small */
-    height: auto;
-    margin-top: 20px;
+.container {
+    max-width: 500px;
+    margin: auto;
 }
 
-/* Large title */
-h1 {
-    color: black;
-    font-size: 48px;
-    margin-top: 10px;
-}
-
-/* Paragraphs */
-p {
-    color: black;
-    font-size: 24px;
-}
-
-/* Category and hint */
-.hint, .category {
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Word display */
-#word {
-    color: black;
-    font-size: 40px;
-    letter-spacing: 10px;
-    margin: 30px 0;
-}
-
-/* Buttons */
-button {
-    background-color: #f0f0f0;
-    color: black;
-    border: 2px solid #ccc;
-    padding: 15px 25px;
+input, button {
+    font-size: 1em;
+    padding: 10px;
     margin: 10px;
-    font-size: 22px;
-    border-radius: 8px;
+    background-color: #f0f0f0;     /* light button background */
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -58,9 +26,7 @@ button:hover {
     background-color: #ddd;
 }
 
-/* Guesses text */
-#guesses {
-    color: black;
-    font-size: 22px;
-    margin-top: 20px;
+img {
+    width: 200px;   /* Keep image size same */
+    height: auto;
 }
