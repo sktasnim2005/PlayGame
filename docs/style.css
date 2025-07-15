@@ -1,21 +1,28 @@
-
 body {
+    background-color: white;
+    color: black;
     font-family: Arial, sans-serif;
-    background-color: #e99090;
-    color: rgb(1, 5, 1);
+    margin: 0;
+    padding: 0;
     text-align: center;
-    padding: 20px;
 }
-.container {
-    max-width: 500px;
-    margin: auto;
+
+h1, p, .hint, .category {
+    color: black;
 }
-input, button {
-    font-size: 1em;
-    padding: 10px;
-    margin: 10px;
+
+button {
+    background-color: #f0f0f0;
+    color: black;
+    border: 2px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
 }
-img {
-    width: 200px;
-    height: auto;
+
+button:hover {
+    background-color: #ddd;
+}
+
+#word, #guesses {
+    color: black;
 }
