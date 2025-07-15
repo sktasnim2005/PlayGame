@@ -2,13 +2,31 @@ body {
     background-color: white;
     color: black;
     font-family: Arial, sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-h1, p, .hint, .category {
+h1 {
     color: black;
+    font-size: 36px;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+.hint, .category {
+    color: black;
+    font-size: 20px;
+}
+
+#word {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 20px 0;
 }
 
 button {
@@ -16,6 +34,8 @@ button {
     color: black;
     border: 2px solid #ccc;
     padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -23,6 +43,8 @@ button:hover {
     background-color: #ddd;
 }
 
-#word, #guesses {
+#guesses {
     color: black;
+    font-size: 18px;
+    margin-top: 20px;
 }
