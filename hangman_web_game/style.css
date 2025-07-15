@@ -7,58 +7,60 @@ body {
     padding: 0;
 }
 
-/* Smaller image */
+/* Medium size image */
 img {
-    width: 200px;   /* You can adjust this size if needed */
+    width: 320px;  /* Not too big, not too small */
     height: auto;
     margin-top: 20px;
 }
 
-/* Bigger title */
+/* Large title */
 h1 {
     color: black;
     font-size: 48px;
+    margin-top: 10px;
 }
 
-/* Bigger paragraph text */
+/* Paragraphs */
 p {
     color: black;
     font-size: 24px;
 }
 
+/* Category and hint */
 .hint, .category {
     color: black;
     font-size: 24px;
     font-weight: bold;
 }
 
-/* Bigger word display */
+/* Word display */
 #word {
     color: black;
-    font-size: 36px;
-    letter-spacing: 8px;
+    font-size: 40px;
+    letter-spacing: 10px;
     margin: 30px 0;
 }
 
-/* Bigger buttons */
+/* Buttons */
 button {
     background-color: #f0f0f0;
     color: black;
     border: 2px solid #ccc;
     padding: 15px 25px;
-    margin: 8px;
+    margin: 10px;
     font-size: 22px;
-    cursor: pointer;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #ddd;
 }
 
-/* Bigger guesses */
+/* Guesses text */
 #guesses {
     color: black;
     font-size: 22px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
