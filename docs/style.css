@@ -1,64 +1,21 @@
+
 body {
-    background-color: white;
-    color: black;
     font-family: Arial, sans-serif;
+    background-color: #f7f4f4;
+    color: rgb(1, 5, 1);
     text-align: center;
-    margin: 0;
-    padding: 0;
+    padding: 20px;
 }
-
-/* Smaller image */
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+input, button {
+    font-size: 1em;
+    padding: 10px;
+    margin: 10px;
+}
 img {
-    width: 200px;   /* You can adjust this size if needed */
+    width: 200px;
     height: auto;
-    margin-top: 20px;
-}
-
-/* Bigger title */
-h1 {
-    color: black;
-    font-size: 48px;
-}
-
-/* Bigger paragraph text */
-p {
-    color: black;
-    font-size: 24px;
-}
-
-.hint, .category {
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-/* Bigger word display */
-#word {
-    color: black;
-    font-size: 36px;
-    letter-spacing: 8px;
-    margin: 30px 0;
-}
-
-/* Bigger buttons */
-button {
-    background-color: #f0f0f0;
-    color: black;
-    border: 2px solid #ccc;
-    padding: 15px 25px;
-    margin: 8px;
-    font-size: 22px;
-    cursor: pointer;
-    border-radius: 8px;
-}
-
-button:hover {
-    background-color: #ddd;
-}
-
-/* Bigger guesses */
-#guesses {
-    color: black;
-    font-size: 22px;
-    margin-top: 25px;
 }
