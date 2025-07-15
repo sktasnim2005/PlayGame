@@ -1,25 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;        /* white background */
-    color: black;                   /* black text */
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 20px;
 }
 
 .container {
-    max-width: 500px;
+    max-width: 700px;   /* increase max width for more space */
     margin: auto;
+    padding: 20px;      /* add some padding */
 }
 
 input, button {
-    font-size: 1em;
-    padding: 10px;
+    font-size: 1.1em;    /* slightly bigger font */
+    padding: 12px 15px;
     margin: 10px;
-    background-color: #f0f0f0;     /* light button background */
+    background-color: #f0f0f0;
     color: black;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -27,6 +29,20 @@ button:hover {
 }
 
 img {
-    width: 200px;   /* Keep image size same */
+    width: 300px;       /* increase image size */
     height: auto;
+    margin: 15px 0;     /* add vertical spacing */
+    border-radius: 10px; /* optional: rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* optional: subtle shadow */
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        padding: 10px;
+    }
+    img {
+        width: 90%;      /* scale images on smaller screens */
+    }
 }
